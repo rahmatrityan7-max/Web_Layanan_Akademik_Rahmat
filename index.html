@@ -1,0 +1,218 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Portal Layanan Akademik: ajukan surat aktif kuliah, transkrip sementara, cuti akademik, dan legalisir secara daring.">
+  <meta name="theme-color" content="#2336D4">
+  <title>UNPATTI Layanan Akademik</title>
+  <link rel="icon" type="image/png" href="img/logopatti.png">
+  <link rel="stylesheet" href="css/styles.css">
+  <style>
+    /* Tambahan untuk versi satu halaman */
+    section[id] { scroll-margin-top: 3.5rem; } /* supaya judul tidak tertutup menu yang menempel */
+    .layanan h2, .alur h2, .form-section h2, .kontak h2 { font-size: 1.9rem; line-height: 1.1; letter-spacing: -.03em; }
+    .alur h2 { margin-bottom: 1.75rem; }
+    @media (min-width: 40em) {
+      .layanan h2, .alur h2, .form-section h2, .kontak h2 { font-size: 2.4rem; }
+    }
+  </style>
+</head>
+<body>
+  <a class="skip-link" href="#konten-utama">Lewati ke konten utama</a>
+
+  <header class="site-header">
+    <div class="container header-inner">
+      <img class="logo" src="img/logopatti.png" alt="" height="40">
+      <div>
+        <p class="brand">Portal Layanan Akademik</p>
+        <p class="site-title">Universitas Pattimura, Ambon</p>
+      </div>
+    </div>
+  </header>
+
+  <nav class="site-nav" aria-label="Navigasi utama">
+    <div class="container">
+      <ul>
+        <li><a href="#beranda">Beranda</a></li>
+        <li><a href="#layanan">Layanan</a></li>
+        <li><a href="#alur">Alur</a></li>
+        <li><a href="#permohonan">Ajukan permohonan</a></li>
+        <li><a href="#kontak">Kontak</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <main id="konten-utama" tabindex="-1">
+
+    <!-- ===== BERANDA ===== -->
+    <section class="intro" id="beranda" aria-labelledby="judul-intro">
+      <div class="container intro-grid">
+        <div class="intro-text">
+          <h1 id="judul-intro">Portal Layanan Akademik</h1>
+          <p class="lead">Pilih layanan, isi formulir, lalu tunggu kabar di email Anda. Bagian akademik memproses permohonan dalam 1–3 hari kerja.</p>
+          <p class="cta-row">
+            <a class="btn" href="#layanan">Lihat layanan</a>
+            <a class="link-quiet" href="#alur">Pelajari alur pengajuan</a>
+          </p>
+        </div>
+        <img class="ticket" src="img/logopatti.png" alt="" width="440" height="320">
+      </div>
+    </section>
+
+    <!-- ===== LAYANAN ===== -->
+    <section class="layanan" id="layanan" aria-labelledby="judul-layanan">
+      <div class="container">
+        <h2 id="judul-layanan">Layanan tersedia</h2>
+        <p class="section-note">Empat layanan yang paling sering diminta mahasiswa.</p>
+        <div class="board">
+          <article class="row">
+            <p class="kode" aria-hidden="true">SAK</p>
+            <div class="row-body">
+              <h3>Surat Aktif Kuliah</h3>
+              <p>Keterangan resmi bahwa Anda terdaftar sebagai mahasiswa aktif pada semester berjalan.</p>
+            </div>
+            <p class="meta">Proses 1 hari kerja</p>
+            <a class="btn btn-outline" href="#permohonan">Ajukan<span class="visually-hidden"> Surat Aktif Kuliah melalui formulir</span></a>
+          </article>
+          <article class="row">
+            <p class="kode" aria-hidden="true">TRS</p>
+            <div class="row-body">
+              <h3>Transkrip Sementara</h3>
+              <p>Daftar mata kuliah beserta nilai yang telah Anda tempuh hingga semester terakhir.</p>
+            </div>
+            <p class="meta">Proses 2 hari kerja</p>
+            <a class="btn btn-outline" href="#permohonan">Ajukan<span class="visually-hidden"> Transkrip Sementara melalui formulir</span></a>
+          </article>
+          <article class="row">
+            <p class="kode" aria-hidden="true">CTI</p>
+            <div class="row-body">
+              <h3>Cuti Akademik</h3>
+              <p>Pengajuan berhenti studi sementara untuk satu semester dengan alasan yang dapat dipertanggungjawabkan.</p>
+            </div>
+            <p class="meta">Proses 3 hari kerja</p>
+            <a class="btn btn-outline" href="#permohonan">Ajukan<span class="visually-hidden"> Cuti Akademik melalui formulir</span></a>
+          </article>
+          <article class="row">
+            <p class="kode" aria-hidden="true">LGL</p>
+            <div class="row-body">
+              <h3>Legalisir Dokumen</h3>
+              <p>Pengesahan salinan ijazah atau transkrip untuk keperluan melamar kerja atau studi lanjut.</p>
+            </div>
+            <p class="meta">Proses 2 hari kerja</p>
+            <a class="btn btn-outline" href="#permohonan">Ajukan<span class="visually-hidden"> Legalisir Dokumen melalui formulir</span></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== ALUR ===== -->
+    <section class="alur" id="alur" aria-labelledby="judul-alur">
+      <div class="container">
+        <h2 id="judul-alur">Alur pengajuan</h2>
+        <ol class="steps">
+          <li>
+            <h3>Pilih layanan</h3>
+            <p>Tentukan dokumen yang Anda perlukan dari daftar layanan.</p>
+          </li>
+          <li>
+            <h3>Isi formulir</h3>
+            <p>Lengkapi data diri, NIM, email aktif, dan keperluan Anda.</p>
+          </li>
+          <li>
+            <h3>Tunggu verifikasi</h3>
+            <p>Bagian akademik memeriksa permohonan dalam 1–3 hari kerja.</p>
+          </li>
+          <li>
+            <h3>Terima dokumen</h3>
+            <p>Dokumen dikirim ke email atau diambil di loket akademik.</p>
+          </li>
+        </ol>
+        <p class="alur-cta"><a class="btn btn-lime" href="#permohonan">Mulai ajukan permohonan</a></p>
+      </div>
+    </section>
+
+    <!-- ===== PERMOHONAN ===== -->
+    <section class="form-section" id="permohonan" aria-labelledby="judul-form">
+      <div class="container form-wrap">
+        <div class="form-intro">
+          <h2 id="judul-form">Formulir permohonan layanan</h2>
+          <p>Kolom bertanda <span aria-hidden="true">*</span><span class="visually-hidden">bintang</span> wajib diisi. Pastikan email Anda aktif, karena kabar proses dikirim ke alamat tersebut.</p>
+        </div>
+
+        <form action="#permohonan" method="get">
+          <div class="form-row">
+            <div class="field">
+              <label for="nama">Nama lengkap <span aria-hidden="true">*</span></label>
+              <input type="text" id="nama" name="nama" autocomplete="name" required minlength="3">
+            </div>
+
+            <div class="field">
+              <label for="nim">NIM <span aria-hidden="true">*</span></label>
+              <input type="text" id="nim" name="nim" inputmode="numeric" pattern="[0-9]{8,12}" required aria-describedby="bantuan-nim">
+              <p id="bantuan-nim" class="hint">8–12 digit angka, tanpa spasi.</p>
+            </div>
+          </div>
+
+          <div class="field">
+            <label for="email">Email kampus atau pribadi <span aria-hidden="true">*</span></label>
+            <input type="email" id="email" name="email" autocomplete="email" required aria-describedby="bantuan-email">
+            <p id="bantuan-email" class="hint">Contoh: nama@email.com</p>
+          </div>
+
+          <div class="field">
+            <label for="layanan-pilihan">Jenis layanan <span aria-hidden="true">*</span></label>
+            <select id="layanan-pilihan" name="layanan" required>
+              <option value="">Pilih layanan</option>
+              <option value="surat-aktif">Surat Aktif Kuliah</option>
+              <option value="transkrip">Transkrip Sementara</option>
+              <option value="cuti">Cuti Akademik</option>
+              <option value="legalisir">Legalisir Dokumen</option>
+            </select>
+          </div>
+
+          <fieldset>
+            <legend>Cara pengambilan dokumen</legend>
+            <div class="radio">
+              <input type="radio" id="ambil-digital" name="pengambilan" value="digital" checked>
+              <label for="ambil-digital">Dikirim digital (PDF) ke email</label>
+            </div>
+            <div class="radio">
+              <input type="radio" id="ambil-langsung" name="pengambilan" value="langsung">
+              <label for="ambil-langsung">Diambil langsung di loket akademik</label>
+            </div>
+          </fieldset>
+
+          <div class="field">
+            <label for="keperluan">Keperluan <span aria-hidden="true">*</span></label>
+            <textarea id="keperluan" name="keperluan" rows="5" required minlength="10" maxlength="500" aria-describedby="bantuan-keperluan"></textarea>
+            <p id="bantuan-keperluan" class="hint">Jelaskan singkat tujuan permohonan (10–500 karakter).</p>
+          </div>
+
+          <button type="submit" class="btn btn-block">Kirim permohonan</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ===== KONTAK ===== -->
+    <section class="kontak" id="kontak" aria-labelledby="judul-kontak">
+      <div class="container">
+        <h2 id="judul-kontak">Kontak bagian akademik</h2>
+        <p class="section-note">Hubungi kami jika ada pertanyaan seputar layanan dan permohonan Anda.</p>
+        <address class="kontak-card">
+          <p><strong>Lokasi</strong><br><span>Ambon, Kampus Poka, Gedung Rektorat Lt. 1</span></p>
+          <p><strong>Email</strong><br><a href="mailto:akademik@example.ac.id">akademik@example.ac.id</a></p>
+          <p><strong>Jam layanan</strong><br><span>Senin–Jumat, 08.00–15.00 WIT</span></p>
+        </address>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p class="copy">&copy; 2026 Universitas Pattimura.</p>
+    </div>
+  </footer>
+</body>
+</html>
